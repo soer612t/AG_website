@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function rwdMenuToggle() {
+  var toggleMenu = document.getElementById("topnav");
+  if (toggleMenu.className === "") {
+      toggleMenu.className += "open";
+  } else {
+      toggleMenu.className = "";
+  }
+}
+</script>
+</head>
+<body>
+<header>
+  <div class="logo_top">
+  </div>
+  <ul id="topnav">
+    <li><a href="index.html">Om</a></li>
+    <li><a href="work.html">Produkter</a></li>
+    <li><a href="about.html">Galleri</a></li>
+    <li><a href="contact.html">Nyheder</a></li>
+    <li><a href="contact.html">Booking</a></li>
+  </ul>
+  <a href="javascript:void(0);" class="burger" onclick="rwdMenuToggle()">&#9776;</a>
+</header>
+<body>
+  <div class="image_container">
+
+  </div>
+  <div id="social_menu">
+
+    <p><a href="https://www.google.dk/maps/place/Peder+Skrams+Gade+14A,+6700+Esbjerg/@55.4714913,8.4347906,17z/data=!3m1!4b1!4m5!3m4!1s0x464b20d3caa35d8b:0x6c09da3d67de891a!8m2!3d55.4714883!4d8.4369846" id="adresse">PEDER SKRAMS GADE 14A - 6700 Esbjerg</a></p>
+    <a target="_blank" href="https://www.facebook.com/AVANTGARDE-272260116152667/?fref=ts" id="face"></a>
+    <a target="_blank" href="https://www.instagram.com/avantgardehairstudio/" id="insta"></a>
+    </div>
+  </div>
+  <!--<div class="video_container">
+
+
+    <video playsinline autoplay muted loop id="multibat">
+       <source src="/Users/soren/Desktop/Portfolio/css/IMG_9875_Sub_01.mp4" type="video/mp4">
+       </video>
+  </div> -->
+
+</body>
